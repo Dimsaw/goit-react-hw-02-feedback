@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
-import Feedback from './componets/FeedbackOptions';
+import FeedbackOptions from '../FeedbackOptions/FeedbackOptions';
+// import './Feedback.css';
+import Section from './Section';
 
-class App extends Component {
+class Feedback extends Component {
   static defaultProps = {
     good: 0,
     neutral: 0,
@@ -42,4 +44,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default Feedback;
